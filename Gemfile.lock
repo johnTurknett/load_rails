@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    load_rails (0.1.0)
+    load_rails (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -178,9 +178,12 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
+    webrick (1.7.0)
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    yard (0.9.27)
+      webrick (~> 1.7.0)
     zeitwerk (2.5.4)
 
 PLATFORMS
@@ -188,10 +191,11 @@ PLATFORMS
 
 DEPENDENCIES
   load_rails!
-  rails
+  rails (= 7.0.2.3)
   rake (~> 13.0)
   rspec (= 3.11.0)
   rubocop (~> 1.21)
+  yard (= 0.9.27)
 
 BUNDLED WITH
    2.3.7

@@ -14,8 +14,6 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/johnTurknett/load_rails"
   spec.metadata["changelog_uri"] = "https://github.com/johnTurknett/load_rails"
@@ -34,6 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rails", "7.0.2.3"
   spec.add_development_dependency "rspec", "3.11.0"
   spec.add_development_dependency "rubocop", "1.26.0"
+  spec.add_development_dependency "yard", "0.9.27"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
