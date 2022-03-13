@@ -1,0 +1,5 @@
+{
+  "editor.defaultFormatter": "misogi.ruby-rubocop",
+  "ruby.rubocop.configFilePath": "/workspaces/load_rails/.rubocop.yml",
+  "ruby.rubocop.useBundler": true
+}
